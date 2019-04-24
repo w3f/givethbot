@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: givethbot
+  name: givethbot-constants
 data:
   constants.js: |
     // Allowed users that can dish out points
