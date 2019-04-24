@@ -1,1 +1,1 @@
-# givethbot-chart
+# givethbot
