@@ -1,7 +1,5 @@
 FROM node:10.15.3-alpine
 
-RUN mkdir /app
-
 WORKDIR /app
 
 RUN apk update && \
