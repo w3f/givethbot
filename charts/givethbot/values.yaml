@@ -1,0 +1,9 @@
+environment: production
+
+image:
+  repo: web3f/givethbot
+  tag: latest
+
+botCredentials: botCredentials
+clientSecret: clientSecret
+credentials: credentials

@@ -1,0 +1,3 @@
+description: Helm packaging for Giveth bot
+name: givethbot
+version: v0.1.0
