@@ -76,13 +76,12 @@ data:
       '!RnDdnUrUGxVEeNHlPJ:matrix.org': [
         {
           trigger: [
-            'When is the next',
-            'Sync',
-            'Sync Meeting',
-            'Social Coding Sync',
+            'hello',
+            'hi',
+            'hey',
           ],
           answer:
-            'The Social Coding Sync is every other week on Tuesday at 06.00PM CET, 09:00 PST, 05:00PM UTC) right [here](https://meet.jit.si/socialcoding)',
+            'hey %USER% :)',
         },
       ],
     }
