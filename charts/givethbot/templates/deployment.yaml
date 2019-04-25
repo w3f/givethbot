@@ -23,6 +23,9 @@ spec:
       - name: givethbot
         image: {{ .Values.image.repo }}:{{ .Values.image.tag }}
         imagePullPolicy: IfNotPresent
+        env:
+        - name: NODE_ENV
+          value: {{ .Values.environment }}
         resources:
           limits:
             cpu: 10m
