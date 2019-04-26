@@ -31,8 +31,6 @@ data:
       "Congratulations! Your contribution to Polkadot has been recognized by %DISHER% [here](%ROOM%) and you have received Reward Points that are for now just a Kudos type of signal but will be used in the future for reputation allocations.
       \n\nTHANK YOU for being here from the Polkadot Ambassadors (and our fabulous PointsBot)!"
 
-    module.exports.milestone_automation_trigger_users = ['@danibelle:matrix.org']
-
     module.exports.milestone_notification_msg =
       "You've got Love from Polkadot!\
       We appreciate your contributions!
