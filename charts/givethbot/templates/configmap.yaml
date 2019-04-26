@@ -28,12 +28,12 @@ data:
     module.exports.sheet_tab_name = 'PointsBot (DONT RENAME!)!A1:F1'
 
     module.exports.dish_notification_msg =
-      "Congratulations! Your contribution to Polkadot has been recognized by %DISHER% [here](%ROOM%) and you have received Reward Points that are for now just a Kudos type of signal but will be used in the future for reputation allocations.
+      "Congratulations! Your contribution to Polkadot has been recognized by %DISHER% [here](%ROOM%) and you have received Reward Points that are for now just a Kudos type of signal but will be used in the future for reputation allocations.\
       \n\nTHANK YOU for being here from the Polkadot Ambassadors (and our fabulous PointsBot)!"
 
     module.exports.milestone_notification_msg =
       "You've got Love from Polkadot!\
-      We appreciate your contributions!
+      We appreciate your contributions!\
       \nYou were [dished points](https://docs.google.com/spreadsheets/d/12cblUYuYq4NwZX7JdRo0-NWnrOxlDy-XCbvF3ugzb2c/edit#gid=0) in the month of %MONTH%, which means reputation will be rewarded to you, for now this is an experiment but depending on how it's used we will potentially use this bot or another to keep track of great contributions like yours!"
 
     // CHATBOT
