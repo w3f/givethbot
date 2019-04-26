@@ -4,8 +4,8 @@ image:
   repo: web3f/givethbot
   tag: latest
 
-botCredentials: botCredentials
-clientSecret: clientSecret
-credentials: credentials
+botCredentials: Y3JlZGVudGlhbHMK
+clientSecret: Y3JlZGVudGlhbHMK
+credentials: Y3JlZGVudGlhbHMK
 
 mainRoom: "!RnDdnUrUGxVEeNHlPJ:matrix.org"
