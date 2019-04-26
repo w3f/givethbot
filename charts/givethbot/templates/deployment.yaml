@@ -36,16 +36,16 @@ spec:
         volumeMounts:
         - name: auth
           mountPath: /app/bot_credentials.json
-          subpath: bot_credentials.json
+          subPath: bot_credentials.json
         - name: auth
           mountPath: /app/client_secret.json
-          subpath: client_secret.json
+          subPath: client_secret.json
         - name: auth
           mountPath: /app/credentials.json
-          subpath: credentials.json
+          subPath: credentials.json
         - name: constants
           mountPath: /app/constants.js
-          subpath: constants.js
+          subPath: constants.js
       volumes:
       - name: auth
         secret:
