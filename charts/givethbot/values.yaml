@@ -7,3 +7,5 @@ image:
 botCredentials: botCredentials
 clientSecret: clientSecret
 credentials: credentials
+
+mainRoom: "!RnDdnUrUGxVEeNHlPJ:matrix.org"

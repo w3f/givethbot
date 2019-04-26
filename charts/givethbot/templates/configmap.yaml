@@ -40,7 +40,7 @@ data:
 
     // CHATBOT
     module.exports.hashtagMappings = {
-      '!RnDdnUrUGxVEeNHlPJ:matrix.org': 'sc',
+      '{{ .Values.mainRoom }}': 'sc',
     }
 
     module.exports.calendarURL =
@@ -52,14 +52,14 @@ data:
     module.exports.negativeResponses = ['no']
 
     module.exports.messages = {
-      '!RnDdnUrUGxVEeNHlPJ:matrix.org': {
+      '{{ .Values.mainRoom }}': {
         internalMsg:
           'Now that you’re Part of the Polkadot ambassadors there are a few resources that will help you along the way:\ WIP',
       },
     }
 
     module.exports.questions = {
-      '!RnDdnUrUGxVEeNHlPJ:matrix.org': [
+      '{{ .Values.mainRoom }}': [
         {
           trigger: [
             'hello',
