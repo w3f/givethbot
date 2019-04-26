@@ -23,8 +23,8 @@ data:
 
     module.exports.sheet_id =
       process.env.NODE_ENV === 'production'
-      ? '12cblUYuYq4NwZX7JdRo0-NWnrOxlDy-XCbvF3ugzb2c'
-      : '10sU4UNlCq8fZ3f4zouoq945zTScw27uUV1LU0siA1YA'
+      ? '1yGmk8kEzD9o2KNMY8IzJNxoSPnQdJyzMRByVb0JTmm0'
+      : '15HCHdf_aKgRawjFiU8U6rz_iUlf3Vu0Zhjk1x0XHuVQ'
     module.exports.sheet_tab_name = 'PointsBot (DONT RENAME!)!A1:F1'
 
     module.exports.dish_notification_msg =
