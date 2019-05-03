@@ -57,10 +57,11 @@ available:
 
 * `$CLIENT_SECRET`
 
-These values are already set on CI, the GitHub bot token in an item called
-`GitHub bot`, the Docker credentials in an item called `Docker Hub Bot`  and
-the Digital Ocean access token in the `DigitalOcean API credentials` item, the
-rest, specific to the bot, can be found in the `Giveth bot` item.
+These values are already set on CI, and are available on 1Password, under the
+Infrastructure vault, the GitHub bot token in an item called `GitHub bot`, the
+Docker credentials in an item called `Docker Hub Bot`  and the Digital Ocean
+access token in the `DigitalOcean API credentials` item; the rest, specific to
+the bot, can be found in the `Giveth bot` item.
 
 ## CI/CD Workflow
 
