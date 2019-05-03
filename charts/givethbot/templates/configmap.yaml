@@ -55,3 +55,7 @@ data:
           'Now that you’re Part of the Polkadot ambassadors there are a few resources that will help you along the way:\ WIP',
       },
     }
+
+    module.exports.questions = {
+      '{{ .Values.mainRoom }}': [],
+    }
