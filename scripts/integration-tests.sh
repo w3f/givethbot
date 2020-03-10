@@ -11,7 +11,7 @@ run_tests() {
 }
 
 teardown() {
-    helm delete --purge givethbot
+    helm delete givethbot
 }
 
 main(){
