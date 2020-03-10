@@ -10,7 +10,14 @@ jobs:
       - run:
           command: |
             /scripts/build-image.sh web3f/givethbot .
-
+  helmLint:
+    docker:
+      - image: web3f/ci-commons:v2.0.1
+    steps:
+      - checkout
+      - run:
+          command: |
+            helm lint ./charts/givethbot
   integrationTests:
     docker:
       - image: web3f/ci-commons:v2.0.1
@@ -62,10 +69,16 @@ workflows:
           filters:
             tags:
               only: /.*/
+      - helmLint:
+          filters:
+            tags:
+              only: /.*/
       - integrationTests:
           filters:
             tags:
               only: /.*/
+          requires:
+            - helmLint              
       - publishImage:
           filters:
             branches:
