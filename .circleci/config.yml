@@ -3,7 +3,7 @@ version: 2
 jobs:
   buildImage:
     docker:
-      - image: web3f/ci-commons:v2.0.1
+      - image: web3f/ci-commons:v2.1.4
     steps:
       - checkout
       - setup_remote_docker
@@ -13,11 +13,10 @@ jobs:
 
   integrationTests:
     docker:
-      - image: web3f/ci-commons:v2.0.1
+      - image: web3f/ci-commons:v2.1.4
     steps:
       - checkout
-      - setup_remote_docker:
-          docker_layer_caching: true
+      - setup_remote_docker
       - run:
           description: run integration tests
           command: |
@@ -25,7 +24,7 @@ jobs:
 
   publishImage:
     docker:
-      - image: web3f/ci-commons:v2.0.1
+      - image: web3f/ci-commons:v2.1.4
     steps:
       - checkout
       - setup_remote_docker
@@ -35,7 +34,7 @@ jobs:
 
   publishChart:
     docker:
-      - image: web3f/ci-commons:v2.0.1
+      - image: web3f/ci-commons:v2.1.4
     steps:
       - checkout
       - run:
@@ -46,10 +45,9 @@ jobs:
     environment:
       HELM_ENV: production
     docker:
-      - image: web3f/ci-commons:v2.0.1
+      - image: web3f/ci-commons:v2.1.4
     steps:
       - checkout
-      - setup_remote_docker
       - run:
           command: |
             ./scripts/deploy.sh
