@@ -44,6 +44,7 @@ jobs:
   deploy:
     environment:
       HELM_ENV: production
+      ENVIRONMENT: community
     docker:
       - image: web3f/ci-commons:v2.1.4
     steps:
